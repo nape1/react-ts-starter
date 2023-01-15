@@ -1,5 +1,11 @@
-function App() {
-    return <div className="App">Hello React</div>
-}
+import Home from '@pages/Home'
+import Notidaications from '@pages/Notifications'
 
-export default App
+export default function App() {
+    return (
+        <div>
+            <Home />
+            <Notidaications />
+        </div>
+    )
+}
